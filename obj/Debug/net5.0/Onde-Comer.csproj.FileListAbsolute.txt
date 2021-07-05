@@ -1,0 +1,16 @@
+C:\Projetos\Onde-Comer\bin\Debug\net5.0\Onde-Comer.exe
+C:\Projetos\Onde-Comer\bin\Debug\net5.0\Onde-Comer.deps.json
+C:\Projetos\Onde-Comer\bin\Debug\net5.0\Onde-Comer.runtimeconfig.json
+C:\Projetos\Onde-Comer\bin\Debug\net5.0\Onde-Comer.runtimeconfig.dev.json
+C:\Projetos\Onde-Comer\bin\Debug\net5.0\Onde-Comer.dll
+C:\Projetos\Onde-Comer\bin\Debug\net5.0\ref\Onde-Comer.dll
+C:\Projetos\Onde-Comer\bin\Debug\net5.0\Onde-Comer.pdb
+C:\Projetos\Onde-Comer\obj\Debug\net5.0\Onde-Comer.csprojAssemblyReference.cache
+C:\Projetos\Onde-Comer\obj\Debug\net5.0\Onde-Comer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Onde-Comer\obj\Debug\net5.0\Onde-Comer.AssemblyInfoInputs.cache
+C:\Projetos\Onde-Comer\obj\Debug\net5.0\Onde-Comer.AssemblyInfo.cs
+C:\Projetos\Onde-Comer\obj\Debug\net5.0\Onde-Comer.csproj.CoreCompileInputs.cache
+C:\Projetos\Onde-Comer\obj\Debug\net5.0\Onde-Comer.dll
+C:\Projetos\Onde-Comer\obj\Debug\net5.0\ref\Onde-Comer.dll
+C:\Projetos\Onde-Comer\obj\Debug\net5.0\Onde-Comer.pdb
+C:\Projetos\Onde-Comer\obj\Debug\net5.0\Onde-Comer.genruntimeconfig.cache
