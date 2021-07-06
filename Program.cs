@@ -7,9 +7,10 @@ namespace Onde_Comer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             VotacaoService _votacaoService = new VotacaoService();
             _votacaoService.RealizarVotacao(1,2);
+            _votacaoService.RealizarVotacao(2,1);
+            _votacaoService.RealizarVotacao(3,2);
         }
     }
 }
