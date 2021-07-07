@@ -41,8 +41,10 @@ namespace Onde_Comer.service
             var restaurantesVotados = votacao.Votos.Select(x => x.Restaurante);
             var idsRestaurantesVotados = restaurantesVotados.Select(x => x.Id).Distinct();
 
+            Console.WriteLine("Resultado da votação\n\n");
+
             foreach (var idRestauranteVotado in idsRestaurantesVotados)
-                Console.WriteLine($"Restaurante: {restaurantesVotados.FirstOrDefault(x => x.Id == idRestauranteVotado).Nome}\nQtdVotos: {restaurantesVotados.Count(x => x.Id == idRestauranteVotado)}");
+                Console.WriteLine($"Restaurante: {restaurantesVotados.FirstOrDefault(x => x.Id == idRestauranteVotado).Nome}\nQtdVotos: {restaurantesVotados.Count(x => x.Id == idRestauranteVotado)}\n");
         }
 
         public void Votar(Voto voto)
