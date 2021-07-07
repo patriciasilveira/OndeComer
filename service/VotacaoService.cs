@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Onde_Comer.models;
+using OndeComer.ConsoleApplication.models;
 
-namespace Onde_Comer.service
+namespace OndeComer.ConsoleApplication.service
 {
     public class VotacaoService
     {
@@ -24,7 +24,14 @@ namespace Onde_Comer.service
         public void RealizarVotacao(int idUsuario, int idRestaurante)
         {
             var usuario = BuscarUsuario(idUsuario);
+
+            if (usuario == null)
+                throw new Exception("Usuario informado não existe");
+
             var restaurante = BuscarRestaurante(idRestaurante);
+
+            if (restaurante == null)
+                throw new Exception("Restaurante informado não existe");
 
             var voto = new Voto(usuario,
                                 restaurante);
@@ -50,6 +57,14 @@ namespace Onde_Comer.service
         public void Votar(Voto voto)
         {
             var votacao = _votacoes.Find(x => x.Data.Date == DateTime.Now.Date);
+
+            var usuarioJaVotou = votacao.Votos.Exists(x => x.Usuario.Id == voto.Usuario.Id);
+            if (usuarioJaVotou)
+                throw new Exception("Este usuário já votou");
+
+            const int horarioMaximoVotacao = 20;
+            if (DateTime.Now.Hour >= horarioMaximoVotacao)
+                throw new Exception("Votação de hoje encerrada");
 
             votacao.Votos.Add(voto);
         }

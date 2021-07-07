@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M7ere9i6jTregHBgL2vv0wEDqd0fablINBjCZGlqmVGm56szB/iP6JmvKKJGynRi9UDctn9DB45BmDh9ljJKHg==",
+  "dgSpecHash": "lWtY6iITiQwDlVWHocCtz0xCElo5zih9ROeXGoJQmWxrOiQM481CTdNTygWYfOweM/FCvF0rOZbijmCJIOsRLg==",
   "success": true,
-  "projectFilePath": "D:\\Repositorios\\Cwi\\Crescer\\OndeComer\\Onde-Comer.csproj",
+  "projectFilePath": "D:\\Repositorios\\Cwi\\Crescer\\OndeComer\\OndeComer.ConsoleApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maicon.unzer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
     "C:\\Users\\maicon.unzer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"

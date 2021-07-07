@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>Onde_Comer</RootNamespace>
+    <RootNamespace>OndeComer.Console</RootNamespace>
   </PropertyGroup>
 
 </Project>

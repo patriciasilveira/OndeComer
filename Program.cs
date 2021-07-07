@@ -1,5 +1,4 @@
-﻿using System;
-using Onde_Comer.service;
+﻿using OndeComer.ConsoleApplication.service;
 
 namespace Onde_Comer
 {

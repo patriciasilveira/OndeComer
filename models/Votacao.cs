@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Onde_Comer.models
+namespace OndeComer.ConsoleApplication.models
 {
     public class Votacao
     {

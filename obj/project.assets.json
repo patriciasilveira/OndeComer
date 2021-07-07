@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Repositorios\\Cwi\\Crescer\\OndeComer\\Onde-Comer.csproj",
-      "projectName": "Onde-Comer",
-      "projectPath": "d:\\Repositorios\\Cwi\\Crescer\\OndeComer\\Onde-Comer.csproj",
+      "projectUniqueName": "D:\\Repositorios\\Cwi\\Crescer\\OndeComer\\OndeComer.ConsoleApplication.csproj",
+      "projectName": "OndeComer.ConsoleApplication",
+      "projectPath": "D:\\Repositorios\\Cwi\\Crescer\\OndeComer\\OndeComer.ConsoleApplication.csproj",
       "packagesPath": "C:\\Users\\maicon.unzer\\.nuget\\packages\\",
-      "outputPath": "d:\\Repositorios\\Cwi\\Crescer\\OndeComer\\obj\\",
+      "outputPath": "D:\\Repositorios\\Cwi\\Crescer\\OndeComer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maicon.unzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
